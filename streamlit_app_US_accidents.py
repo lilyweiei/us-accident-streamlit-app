@@ -103,7 +103,7 @@ def run_prediction_main():
     @st.cache_resource
     def load_model():
         try:
-            model = joblib.load("random_forest_model.pkl")
+            model = joblib.load("histgradientboost_model.pkl")
             return model
         except Exception as e:
             st.error(f'Model loading failed: {str(e)}')
@@ -416,7 +416,7 @@ def run_prediction_main():
     # Add footer
     st.markdown("---")
     st.markdown(
-        "© 2025 Traffic Accident Severity Prediction System | Based on Random Forest Model | Data Source: US_Accidents")
+        "© 2025 Traffic Accident Severity Prediction System | Based on Histgradientboost Model | Data Source: US_Accidents")
 
 # ========== UI 页面逻辑 ==========
 def run_ui_sidebar():
