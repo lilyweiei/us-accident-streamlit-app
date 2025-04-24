@@ -3,21 +3,21 @@ Please download it manually from https://drive.google.com/file/d/1U3u8QYzLjnEaSu
 
 # U.S. Accident Severity Prediction App (Streamlit + Docker)
 
-This project is a Streamlit-based web application that predicts the severity of traffic accidents in the U.S. using real-time environmental features. It includes a pre-trained Random Forest model, interactive visualizations, and a full Dockerized setup for quick deployment.
+This project is a Streamlit-based web application that predicts the severity of traffic accidents in the U.S. using real-time environmental features. It includes a pre-trained histgradientboost model, interactive visualizations, and a full Dockerized setup for quick deployment.
 
 ## 🔍 Features
 
 - 🌐 Interactive web UI built with Streamlit
 - 📊 Visual analytics of accident data (weather, location, time)
-- 🤖 ML model prediction (Random Forest)
+- 🤖 ML model prediction (Histgradientboost)
 - 📦 One-command Docker deployment
 - 📁 Sample dataset and model included
 
 ## 📁 Project Structure
-<pre>. ├── streamlit_app_US_accidents.py # Main app file 
+<pre>. ├── streamlit_app_US_accidents.py # Main app file
 ├── requirements.txt # Python dependencies
 ├── Dockerfile # Docker container setup
-├── random_forest_model.pkl # Pre-trained ML model
+├── histgradientboost_model.pkl # Pre-trained ML model
 ├── US_Accidents_March23_sampled_500k.csv # Input dataset (manually downloaded)
 </pre>
 
