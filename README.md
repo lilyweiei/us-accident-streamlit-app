@@ -1,3 +1,6 @@
+⚠️ Note: Due to GitHub file size limits, the dataset `US_Accidents_March23_sampled_500k.csv` is not included in this repository.  
+Please download it manually from https://drive.google.com/file/d/1U3u8QYzLjnEaSurtZfSAS_oh9AT2Mn8X/edit and place it in the project root folder.
+
 # U.S. Accident Severity Prediction App (Streamlit + Docker)
 
 This project is a Streamlit-based web application that predicts the severity of traffic accidents in the U.S. using real-time environmental features. It includes a pre-trained Random Forest model, interactive visualizations, and a full Dockerized setup for quick deployment.
@@ -11,7 +14,11 @@ This project is a Streamlit-based web application that predicts the severity of 
 - 📁 Sample dataset and model included
 
 ## 📁 Project Structure
-. ├── streamlit_app_US_accidents.py # Main app file ├── requirements.txt # Python dependencies ├── Dockerfile # Docker container setup ├── random_forest_model.pkl # Pre-trained ML model ├── US_Accidents_March23_sampled_500k.csv # Input dataset
+. ├── streamlit_app_US_accidents.py # Main app file
+├── requirements.txt # Python dependencies
+├── Dockerfile # Docker container setup
+├── random_forest_model.pkl # Pre-trained ML model
+├── US_Accidents_March23_sampled_500k.csv # Input dataset
 
 ## 🚀 Getting Started
 
