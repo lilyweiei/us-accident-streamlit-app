@@ -14,11 +14,7 @@ This project is a Streamlit-based web application that predicts the severity of 
 - 📁 Sample dataset and model included
 
 ## 📁 Project Structure
-. ├── streamlit_app_US_accidents.py # Main app file
-├── requirements.txt # Python dependencies
-├── Dockerfile # Docker container setup
-├── random_forest_model.pkl # Pre-trained ML model
-├── US_Accidents_March23_sampled_500k.csv # Input dataset
+<pre> ``` . ├── streamlit_app_US_accidents.py # Main app file ├── requirements.txt # Python dependencies ├── Dockerfile # Docker container setup ├── random_forest_model.pkl # Pre-trained ML model ├── US_Accidents_March23_sampled_500k.csv # Input dataset (manually downloaded) ``` </pre>
 
 ## 🚀 Getting Started
 
